@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
-*.db
 drive/
 sample_data/
 .config/
