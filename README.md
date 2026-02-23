@@ -128,6 +128,44 @@ Describes the geographic hierarchy and reference population.
 
 ---
 
+This project can be replicated in a simple and accessible way using Google Colab. The idea is to run the ETL pipeline end-to-end in the cloud and generate the database-ready outputs.
+
+✅ What's needed
+
+A Google account
+Access to the repository 
+The dataset file 
+(Optional) A MySQL instance if you want full DB replication; otherwise you can validate the model locally with SQLite for testing
+
+🧩 Replication Colab
+
+Open Google Colab
+
+Create a new notebook or open the provided .ipynb from the repo.
+
+Clone the GitHub project 
+
+Upload / load the dataset
+
+Run the ETL cells in order
+
+Execute extraction → cleaning → validation → transformation steps.
+
+Export the cleaned dataset and create the tables for the star schema.
+
+Database creation and loading
+
+Create the relational structure (dimensions + fact table).
+
+Insert data into the DB using SQL queries from the notebook.
+
+Validation with SQL
+
+Export the final database file (or tables) and download it.
+
+Use it later in Power BI for dashboards.
+
+
 ## 🛠️ Technology Stack
 
 * Python
